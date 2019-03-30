@@ -1,10 +1,8 @@
-JavaScript React State Hook Demo
-=================================
+JavaScript React State Hook Monitor State Changes Demo
+=======================================================
 
-React `16.8`中引入了`State Hook`，可以让我们以Function的形式定义组件，并且处理与state相关的操作。
-
-由于它对每一个state直接暴露出了相应的getter/setter，使用起来很方便。
-
+对于一个使用了state hooks的Function Component，如果希望在state变化之后做一些事情，
+可以直接使用`useEffect`, 它就类似于`componentDidUpdate`（只不过拿不到之前的值）
 
 ```
 npm install
